@@ -1,6 +1,6 @@
 export const Services = (props) => {
   return (
-    <div id='services' className='text-center'>
+    <div id='services' className='text-center' style={{ background: ['#32a36e']}}>
       <div className='container'>
         <div className='section-title'>
           <h2>Our Services</h2>

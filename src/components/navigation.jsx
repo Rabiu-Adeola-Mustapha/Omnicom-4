@@ -1,3 +1,4 @@
+import Omnicom from "./omnicom.jpg"
 export const Navigation = (props) => {
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
@@ -16,7 +17,7 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
           </button>
           <a className='navbar-brand page-scroll' href='#page-top'>
-            My Landing Page
+            <img className='' alt='' src={Omnicom} style={{ height: 35}}/>
           </a>{' '}
         </div>
 
